@@ -3,9 +3,9 @@
 import os
 import requests
 
-web_adress = 'http://'
+web_adress = 'http://EDIT_THIS'
 headers = {'Content-Type':'application/json'}
-dirname = " "
+dirname = "EDIT_THIS "
 
 for filename in os.listdir(dirname):
     print(filename)
